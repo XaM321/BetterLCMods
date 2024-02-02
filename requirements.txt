@@ -1,0 +1,11 @@
+elevate
+win32api
+zipfile
+chardet
+configparser
+PIL
+pickle
+shutil
+os
+customtkinter
+json
