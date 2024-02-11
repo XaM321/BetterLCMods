@@ -1,11 +1,7 @@
 elevate
-win32api
+pywin32
 zipfile
 chardet
 configparser
 PIL
-pickle
-shutil
-os
 customtkinter
-json
