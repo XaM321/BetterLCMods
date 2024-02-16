@@ -1,6 +1,5 @@
 elevate
 pywin32
-zipfile
 chardet
 configparser
 PIL

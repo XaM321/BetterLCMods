@@ -270,28 +270,4 @@ for idx, obj in enumerate(iterable = [close_btn,
                                       update_configs], start = 1):
       obj.place(relx = SB_REL * PADDING, rely = 1 - 0.05 * idx - PADDING * idx, relwidth = 0.96, relheight = 0.05)
 
-
-# old_width: int = 0
-
-# def onResize(event) -> None:
-#       global SCROLLBAR, COLUMNS, old_width
-#       if event.widget != SCROLLBAR or event.width == old_width: return
-#       old_width = event.width
-
-#       COLUMNS = int(len(buttons) / (event.width / 200)) + 1
-
-#       SCROLLBAR.destroy()
-
-#       SCROLLBAR = ctk.CTkScrollableFrame(master = WIN, corner_radius = 0)
-#       SCROLLBAR.place(relx = 0.2, rely = 0, relwidth = 0.8, relheight = 1, anchor = ctk.NW)
-
-#       for button in buttons.values():
-#             icon: ctk.CTkImage = ctk.CTkImage(light_image = Image.open(fp = f"{PLUGIN_PATH}/{mod}/icon.png"), size = (80, 80))
-#             icon_label: ctk.CTkLabel = ctk.CTkLabel(master = SCROLLBAR, image = icon, text = "")
-
-#             icon_label.grid(column = idx // COLUMNS * 2, row = idx % COLUMNS, padx = (20, 10), pady = (5, 5), sticky = ctk.NW)
-#             button.grid(column = idx // COLUMNS * 2 + 1, row = idx % COLUMNS, padx = 0, pady = 0, sticky = ctk.W)
-
-# WIN.bind(sequence = "<Configure>", func = onResize)
-
 WIN.mainloop()
