@@ -2,5 +2,5 @@ elevate
 pywin32
 chardet
 configparser
-PIL
+pillow
 customtkinter
