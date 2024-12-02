@@ -1,6 +1,6 @@
-elevate
+customtkinter
+configparser
+requests
 pywin32
 chardet
-configparser
 pillow
-customtkinter
